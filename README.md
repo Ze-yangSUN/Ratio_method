@@ -11,7 +11,7 @@
 
 In certain cases of astronomical data analysis, the meaningful physical quantity to extract is the ratio $R$ between two data sets. Examples include the lensing ratio, the interloper rate in spectroscopic redshift samples, the decay rate of gravitational potential and $E_G$ to test gravity. However, simply taking the ratio of the two data sets is biased, since it renders (even statistical) errors in the denominator into systematic errors in $R$. Furthermore, it is not optimal in minimizing statistical errors of $R$. 
 
-Based on the Bayesian analysis and the usual assumption of Gaussian error in the data, we derive an analytical expression of the posterior PDF $P(R)$. This result enables fast and unbiased $R$ measurement, with minimal statistical errors. Furthermore, it relies on no underlying model other than the proportionality relation between the two data sets. Even more generally, it applies to the cases where the proportionality relation holds for the underlying physics/statistics instead of the two data sets directly. It also applies to the case of multiple ratios ($R$ $\rightarrow$ $\mathbf R $=$(R_1,R_2,...)$).
+Based on the Bayesian analysis and the usual assumption of Gaussian error in the data, we derive an analytical expression of the posterior PDF $P(R)$. This result enables fast and unbiased $R$ measurement, with minimal statistical errors. Furthermore, it relies on no underlying model other than the proportionality relation between the two data sets. Even more generally, it applies to the cases where the proportionality relation holds for the underlying physics/statistics instead of the two data sets directly. It also applies to the case of multiple ratios ($R$ $\rightarrow$ $\mathbf R $=($R_1,R_2,...$)).
 
 ## Resources
 
@@ -37,7 +37,7 @@ Follow the below steps to reproduce the paper's results. While the instructions 
 
 1. **Get the main data sets ${\bf d}_1, {\bf d}_2$**.
 
-2. **Data pre-precessing $w^{g\gamma_t}, w^{g\kappa_{\rm CMB}}, w^{g\gamma_t}_{\rm tem}, w^{g\kappa_{\rm CMB}}_{\rm tem}$**.
+2. **Data pre-precessing $w^{g\gamma_t}$, $w^{g\kappa_{\rm CMB}}$, $w^{g\gamma_t}_{\rm tem}$, $w^{g\kappa_{\rm CMB}}_{\rm tem}$**.
 
 3. **Run the code** `unbiased_R_estimator`.
 
