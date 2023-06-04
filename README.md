@@ -1,7 +1,5 @@
 # An unbiased ratio estimator
 
----
-
 [Zeyang Sun](http://astro.sjtu.edu.cn/zh/staff/students/40-),
 [Pengjie Zhang](http://astro.sjtu.edu.cn/zh/staff/people/13-),
 [Ji Yao](http://astro.sjtu.edu.cn/zh/staff/postdoctoral-researchers/26-),
