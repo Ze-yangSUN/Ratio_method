@@ -14,9 +14,10 @@ In certain cases of astronomical data analysis, the meaningful physical quantity
 Based on the Bayesian analysis and the usual assumption of Gaussian error in the data, we derive an analytical expression of the posterior PDF $P(R)$. This result enables fast and unbiased $R$ measurement, with minimal statistical errors. Furthermore, it relies on no underlying model other than the proportionality relation between the two data sets. Even more generally, it applies to the cases where the proportionality relation holds for the underlying physics/statistics instead of the two data sets directly. It also applies to the case of multiple ratios ($R$ $\rightarrow$ $\mathbf R $=($R_1,R_2,...$)).
 
 The main result of this work is the analytical expression of the PDF $P(R)$ (Eq.8 in paper):
-$$
-P(R|\mathbf{d}_1, \mathbf{d}_2) \propto \left({\rm det}\mathbf{Q}\right )^{-1/2} {\rm exp} \bigg[ \frac{1}{2} \mathbf{T}^T \mathbf{Q}^{-1}\mathbf{T} \bigg] P_{\rm prior}(R) \ .
-$$
+
+\begin{equation}
+    P(R|\mathbf{d}_1, \mathbf{d}_2) \propto \left({\rm det}\mathbf{Q}\right )^{-1/2} {\rm exp} \bigg[ \frac{1}{2} \mathbf{T}^T \mathbf{Q}^{-1}\mathbf{T} \bigg] P_{\rm prior}(R) \ .
+\end{equation}
 
 ## Resources
 
