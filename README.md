@@ -37,7 +37,7 @@ Follow the below steps to reproduce the paper's results. While the instructions 
 
 1. **Get the main data sets ${\bf d}_1, {\bf d}_2$**.
 
-2. **Data pre-precessing $w^{g\gamma_t}$, $w^{g\kappa_{\rm CMB}}$, $w^{g\gamma_t}$$_{tem}$, $w^{g\kappa_{\rm CMB}}_{tem}$**.
+2. **Data pre-precessing $w^{g\gamma_t}$, $w^{g\kappa_{\rm CMB}}$, $w_{tem}^{g\gamma_t}$, $w^{g\kappa_{\rm CMB}}_{tem}$**.
 
 3. **Run the code** `unbiased_R_estimator`.
 
