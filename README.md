@@ -15,17 +15,13 @@ Based on the Bayesian analysis and the usual assumption of Gaussian error in the
 
 ## Resources
 
----
-
 Code:
 - [Unbiased ratio estimator](): original repository
 
 Paper:
-- An unbiased method of measuring the ratio of two data sets, 2022. [[paper](https://arxiv.org/abs/2210.13717), [slides]()]
+- An unbiased method of measuring the ratio of two data sets, 2022. [[paper](https://arxiv.org/abs/2210.13717), [slides](slides/lensing_ratio_SunZeyang_20230603.pdf)]
 
 ## Notebooks
-
----
 
 The below notebooks contain examples to play with the unbiased ratio estimator. Look at the first one if you want to use the method with your own data.
 
@@ -37,8 +33,6 @@ The below notebooks contain examples to play with the unbiased ratio estimator. 
 
 ## Reproducing the results of the paper
 
----
-
 Follow the below steps to reproduce the paper's results. While the instructions are simple, your data sets should prepare in advance.
 
 1. **Get the main data sets ${\bf d}_1, {\bf d}_2$**.
@@ -48,8 +42,6 @@ Follow the below steps to reproduce the paper's results. While the instructions 
 3. **Run the code** `unbiased_R_estimator`.
 
 ## Citation
-
----
 
 Please consider citing our paper if you find it useful.
 
