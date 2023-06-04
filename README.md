@@ -11,7 +11,7 @@
 
 In certain cases of astronomical data analysis, the meaningful physical quantity to extract is the ratio $R$ between two data sets. Examples include the lensing ratio, the interloper rate in spectroscopic redshift samples, the decay rate of gravitational potential and $E_G$ to test gravity. However, simply taking the ratio of the two data sets is biased, since it renders (even statistical) errors in the denominator into systematic errors in $R$. Furthermore, it is not optimal in minimizing statistical errors of $R$. 
 
-Based on the Bayesian analysis and the usual assumption of Gaussian error in the data, we derive an analytical expression of the posterior PDF $P(R)$. This result enables fast and unbiased $R$ measurement, with minimal statistical errors. Furthermore, it relies on no underlying model other than the proportionality relation between the two data sets. Even more generally, it applies to the cases where the proportionality relation holds for the underlying physics/statistics instead of the two data sets directly. It also applies to the case of multiple ratios ($R\rightarrow {\bf R}=(R_1,R_2,\cdots)$).
+Based on the Bayesian analysis and the usual assumption of Gaussian error in the data, we derive an analytical expression of the posterior PDF $P(R)$. This result enables fast and unbiased $R$ measurement, with minimal statistical errors. Furthermore, it relies on no underlying model other than the proportionality relation between the two data sets. Even more generally, it applies to the cases where the proportionality relation holds for the underlying physics/statistics instead of the two data sets directly. It also applies to the case of multiple ratios ($R \rightarrow {\mathbf R}=(R_1,R_2,\ldots)$).
 
 ## Resources
 
@@ -27,7 +27,7 @@ The below notebooks contain examples to play with the unbiased ratio estimator. 
 
 1. [The simplest case of the ratio estimator](). The easiest example to run if the physically meaningful $R$ is directly the ratio of two data sets, but not there underlying model. Meanwhile, the measurement errors in ${\bf d}_1, {\bf d}_2$ are uncorrelated. That is to say, the mapping matrix ${\bf A}_1 = {\bf I}, {\bf A}_2 = R{\bf I}$.
 
-2. [The case when two data sets are correlated](). The difference with the first notebook is, the measurement errors in ${\bf d}_1, {\bf d}_2$ are correlated.
+2. [The case when two data sets are correlated](). The difference with the first notebook is, the measurement errors in ${\mathbf d}_1, {\mathbf d}_2$ are correlated.
 
 3. [The general case when the underlying model follow the proportionality relation](). The physically meaningful $R$ is not directly the ratio of two data sets, but rather the ratio of some underlying models. For example, one data set is the galaxy-tangential shear cross-correlation, and the other is the galaxy-CMB lensing convergence cross-correlation. The first is related to the galaxy-lensing power spectrum through the Bessel function $J_2(x=\ell\theta)$. The second is related to $J_0(x)$ instead. So although the underlying galaxy-lensing power spectra follow the proportionality relation, the data sets do not.
 
